@@ -33,7 +33,7 @@ app.get("/", (req, res) => res.send("Bot ishlayapti!"));
 
 // 🚀 Har 5 daqiqada Render botni "tirik" deb bilishi uchun ping
 setInterval(() => {
-  fetch("https://uptimerobot.com").catch(() => {});
+  fetch("https://ovoz-bot-90lu.onrender.com").catch(() => {});
 }, 5 * 60 * 1000); // 5 daqiqada bir ping
 
 // 🎧 Serverni ishga tushirish
