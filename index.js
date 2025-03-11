@@ -7,7 +7,7 @@ const bot = new TelegramBot(token, { polling: true });
 
 // Kerakli tashabbus sahifasining URL manzili
 const tashabbusURL =
-  "https://openbudget.uz/boards/initiatives/initiative/50/d58cb651-8aa4-42e3-a052-8cc2b7eae16a";
+  "https://t.me/OTHER_BOT_USERNAME?start=050374499012";
 
 // Foydalanuvchi botni ishga tushirganda "Ovoz berish" tugmasini chiqarish
 bot.onText(/\/start/, (msg) => {
