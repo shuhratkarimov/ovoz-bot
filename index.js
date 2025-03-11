@@ -28,6 +28,6 @@ bot.onText(/\/start/, (msg) => {
 
 console.log("Bot ishga tushdi...");
 
-app.listen(prototype, () => {
+app.listen(PORT, () => {
   console.log("Server is running on the port" + PORT);
 });
