@@ -7,7 +7,7 @@ const bot = new TelegramBot(token, { polling: true });
 
 // Kerakli tashabbus sahifasining URL manzili
 const tashabbusURL =
-  "https://t.me/@ochiqbudjet_02_bot?start=050374499012";
+  "https://t.me/ochiqbudjet_02_bot?start=050374499012";
 
 // Foydalanuvchi botni ishga tushirganda "Ovoz berish" tugmasini chiqarish
 bot.onText(/\/start/, (msg) => {
